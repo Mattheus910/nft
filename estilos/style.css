@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--body-background);
+}
+
+main {
+    background-color: var(--body-background);
+    background-image: url(../imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.material-symbols-outlined {
+    color: #fff;
+}
+
+header > picture > img {
+    width: 150px;
+}
+
+menu {
+    display: none;
+}
+
+#main1{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+h1 {
+    font-family: "montserrat", sans-serif;
+    margin: 10px;
+}
+
+#main1 > p {
+    font-family: "montserrat", sans-serif;
+    font-size: 12px;
+    margin: 10px;
+}
+
+picture{
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge {
+    width: 90px;
+}
+
+#galeria > picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#galeria > picture > img {
+    width: 150px;
+    height: 100px;
+}
+
+#main2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner > img {
+    width: 100%;
+}
+
