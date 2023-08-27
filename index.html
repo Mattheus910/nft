@@ -20,11 +20,7 @@
                 menu
             </span>
             
-            <menu id="itens">
-                <a href="#">Comprar NFT</a>
-                <a href="#">Sobre</a>
-                <a href="#">FAQ</a>
-            </menu>
+            
 
             <picture>
                 <img src="imagens/Rocket NFTs.svg" alt="">
@@ -35,6 +31,12 @@
                 <input type="submit" value="Conectar Carteira">
             </article>
         </header>
+
+        <menu id="itens">
+            <a href="#">Comprar NFT</a>
+            <a href="#">Sobre</a>
+            <a href="#">FAQ</a>
+        </menu>
         
         <section id="main1">
             <h1>
@@ -294,10 +296,11 @@
     <script>
 
         function clickMenu() {
-            if (itens.style.display == 'block') {
+            if (itens.style.display == 'flex') {
                 itens.style.display = 'none'
             } else {
-                itens.style.display = 'block'
+                itens.style.display = 'flex'
+                itens.style.flexDirection = 'column';
             }
         }
     </script>

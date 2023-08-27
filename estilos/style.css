@@ -40,6 +40,7 @@ main {
 header {
     display: flex;
     justify-content: space-around;
+    height: 30px;
 }
 
 .fox {
@@ -68,6 +69,10 @@ header > picture > img {
 
 menu {
     display: none;
+}
+
+#itens > a {
+    text-decoration: none;
 }
 
 #main1{
