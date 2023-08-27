@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) {
+    
+    main {
+        padding: 80px;
+    }
+
+    .main1 {
+        display: flex;
+    }
+
+    h1, p {
+        width: 500px;
+    }
+
+    #galeria > picture > img {
+        width: auto;
+        height: auto;
+        gap: 16px;
+    }
+
+    #galeria {
+        display: grid;
+        grid-template-columns: (4, 1fr);
+        grid-template-rows: (2, 1fr);
+
+    }
+
+   
+
+
+
+
+}
