@@ -16,17 +16,19 @@
     <main>
         <header>
         
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" onclick="clickMenu()">
                 menu
             </span>
-            <picture>
-                <img src="imagens/Rocket NFTs.svg" alt="">
-            </picture>
-            <menu>
+            
+            <menu id="itens">
                 <a href="#">Comprar NFT</a>
                 <a href="#">Sobre</a>
                 <a href="#">FAQ</a>
             </menu>
+
+            <picture>
+                <img src="imagens/Rocket NFTs.svg" alt="">
+            </picture>
 
             <article class="fox">
                 <img src="imagens/logo_MetaMask.svg" alt="">
@@ -289,5 +291,15 @@
 
     </footer>
 
+    <script>
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
