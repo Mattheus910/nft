@@ -42,6 +42,22 @@ header {
     justify-content: space-around;
 }
 
+.fox {
+    display: flex;
+    background-color: #ffff;
+    padding: 5px;
+}
+
+.fox > input {
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.fox > img {
+    width: 20px;
+}
+
 .material-symbols-outlined {
     color: #fff;
 }
@@ -137,14 +153,16 @@ picture{
     margin: 20px;
 }
 
-#main3 > article > .red, .nome {
-    display: inline;
-    margin: 55px;
+#main3 > article > article {
+    display: flex;
+    height: 20px;
     font-size: 12px;
     font-weight: normal;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#main3 > article > .nome {
+#main3 > article > article > .nome {
     color: var(--subtitle-color);
 }
 
@@ -160,6 +178,14 @@ picture{
     gap: 80px;
     margin: 10px;
     padding: 10px;
+}
+
+#main4 > .bgred {
+    background-color: var(--color-logo);
+}
+
+#main4 > p {
+    margin: 10px;
 }
 
 footer {
@@ -191,11 +217,27 @@ footer > section > img {
     color: #5a5757;
 }
 
-#middle-footer > article > input {
-    background-color: black;
+#middle-footer > article > article {
+    display: flex;
+    justify-content: center;
+}
+
+#middle-footer > article {
+    font-size: 12px;
+}
+
+#middle-footer > article > article > input {
+    background-color: #0D0D0D;
     color: #5a5757;
     border: none;
-    height: 30px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#middle-footer > article > article > .enviar {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 #bottom-footer {
